@@ -9,14 +9,14 @@ export default function Home() {
      {[
   'primary',
   'secondary',
+  'secondary',
+  'secondary',
   'success',
   'danger',
   'warning',
   'info',
   'light',
-  'light',
-  'light',
-  'light',
+
   'dark',
 ].map((variant, idx) => (
   <Alert key={idx} variant={variant}>
