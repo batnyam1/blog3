@@ -16,6 +16,7 @@ export default function Home() {
   'light',
   'light',
   'light',
+  'light',
   'dark',
 ].map((variant, idx) => (
   <Alert key={idx} variant={variant}>
